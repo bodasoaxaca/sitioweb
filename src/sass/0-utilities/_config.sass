@@ -1,0 +1,53 @@
+// =======================================
+// =            Global Config            =
+// =======================================
+
+// Tipografía
+
+$font-url--google       : "https://fonts.googleapis.com/css?family=Roboto:100,700"
+$font-family--primary   : "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+$font-family--secondary : null
+
+// Texto
+$base__font-size        : 16px
+$base__line             : 24px
+$letter-space           : 1px
+
+// Pesos
+$font__weight--light    : 100
+$font__weight--bold     : 700
+
+// Colores Descriptivos
+$blanco                 : #ffffff
+$negro                  : #3C3D41
+$gris                   : #797e83
+// Colores Cosas
+$rojo                   : #e67478
+$amarillo               : #d6c91f
+// Color Principal
+$azul-idt               : #0070C0
+
+// Paleta de Colores
+@import "color-palletes"
+
+// Uso de Colores
+$color-primario         : $azul-idt
+$color-secundario       : palette(azul, light)
+$color-acento           : invert($azul-idt)
+$color-sombra           : rgba($negro, 0.2)
+
+// Colores UI
+@import "ui-colors"
+
+// Transiciones
+$trns-duration          : .3s
+
+// Camino a 'img'
+$path--img              : '../img'
+
+// Grid Variables powered by Chochini - Better FlexboxGrid
+$col-num: 12 !default
+$col-gutter: 0.5rem !default
+
+// Breakpoints para los media queries 🐶
+$grid__breakpoints: xs, (sm, 32em), (md, 48em), (lg, 62em) !default

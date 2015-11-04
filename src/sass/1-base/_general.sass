@@ -1,0 +1,44 @@
+// Arrancamos con nuestro estilizado general
+
+*
+  box-sizing: border-box
+
+::selection
+  background: palette(azul)
+  color: $blanco
+
+body
+  color: negro
+  font-size: $base__font-size
+  font-family: $font-family--primary
+  line-height: ($base__line/$base__font-size)
+  font-weight: $font__weight--light
+
+// Ahora nos vamos por las situaciones de los pesos de las letras
+h1
+  font-size: em(45px)
+  line-height: (55px/45px)
+  font-weight: $font__weight--bold
+
+h2
+  font-size: em(32px)
+  line-height: (55px/32px)
+  font-weight: $font__weight--bold
+
+h3
+  font-size: em(11px)
+  line-height: (13px/11px)
+  font-weight: $font__weight--bold
+
+
+// Elementos gráficos
+button
+  @extend %btn-default
+
+
+// Situación de los formularios
+label
+  display: none
+
+input[type='submit']
+  @extend  %btn-default

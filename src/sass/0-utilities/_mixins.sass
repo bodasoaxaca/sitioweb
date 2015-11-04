@@ -1,0 +1,17 @@
+// BEM Bitches!!
+
+=e ($element)
+  &__#{$element}
+    @content
+
+=m ($modifier)
+  &--#{$modifier}
+    @content
+
+=img-replace ($img, $w, $h, $disp: block)
+  background-image: url('#{$path--img}/#{$img}')
+  background-repeat: no-repeat
+  width: $w
+  height: $h
+  display: $disp
+  

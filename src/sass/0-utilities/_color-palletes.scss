@@ -1,0 +1,20 @@
+$color-palettes: (
+  gris: (
+    xx-light  : lighten($gris, 43%),
+    x-light   : lighten($gris, 35%),
+    light     : lighten($gris, 12%),
+    base      : $gris,
+    dark      : darken($gris, 8%),
+    x-dark    : darken($gris, 16%)
+  ),
+  negro: (
+    light     : lighten($negro, 10%),
+    base      : $negro,
+    dark      : darken($negro, 10%)
+  ),
+  azul: (
+    light     : lighten($azul-idt, 12%),
+    base      : $azul-idt,
+    dark      : darken($azul-idt, 8%)
+    )
+);
