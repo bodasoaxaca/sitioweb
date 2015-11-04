@@ -1,0 +1,31 @@
+{
+  "name": "bodasoax",
+  "version": "1.0.0",
+  "description": "sitio web de bodas oax",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodasoaxaca/sitioweb.git"
+  },
+  "keywords": [
+    "html",
+    "jade",
+    "css",
+    "js"
+  ],
+  "author": "mike3run",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodasoaxaca/sitioweb/issues"
+  },
+  "homepage": "https://github.com/bodasoaxaca/sitioweb#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^2.4.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
