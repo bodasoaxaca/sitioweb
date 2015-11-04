@@ -12,9 +12,9 @@ $color-palettes: (
     base      : $negro,
     dark      : darken($negro, 10%)
   ),
-  azul: (
-    light     : lighten($azul-idt, 12%),
-    base      : $azul-idt,
-    dark      : darken($azul-idt, 8%)
+  rosa: (
+    light     : lighten($rosa-boda, 12%),
+    base      : $rosa-boda,
+    dark      : darken($rosa-boda, 8%)
     )
 );

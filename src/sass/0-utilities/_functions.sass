@@ -2,10 +2,6 @@
 //            Funciones             =
 // ==================================
 
-// Si hay Google Font, entonces importala chingá
-@if variable-exists(font-url--google)
-  @import url($font-url--google)
-
 // Conversor bonito de ems
 @function em($objetivo, $base: $base__font-size)
   @return ($objetivo / $base) * 1em
