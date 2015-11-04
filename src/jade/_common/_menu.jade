@@ -1,0 +1,12 @@
+mixin menu-items()
+  ul
+    li: a(href='index') Acerca
+    li: a(href='#') Decoración
+    li: a(href='#') Oaxaca
+    li: button Contacto
+
+
+nav.main-nav
+  a(href="index").main-nav__logo Bodas Oaxaca
+  +menu-items
+  
