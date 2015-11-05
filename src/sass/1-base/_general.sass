@@ -8,7 +8,7 @@
   color: $blanco
 
 body
-  color: negro
+  color: $negro
   font-size: $base__font-size
   font-family: $font-family--primary
   line-height: ($base__line/$base__font-size)
@@ -16,19 +16,19 @@ body
 
 // Ahora nos vamos por las situaciones de los pesos de las letras
 h1
+  @extend %header-default
   font-size: em(45px)
   line-height: (55px/45px)
-  font-weight: $font__weight--bold
 
 h2
+  @extend %header-default
   font-size: em(32px)
   line-height: (55px/32px)
-  font-weight: $font__weight--bold
 
 h3
-  font-size: em(11px)
-  line-height: (13px/11px)
-  font-weight: $font__weight--bold
+  @extend %header-default
+  font-size: em(25px)
+  line-height: (30px/25px)
 
 
 // Elementos gráficos

@@ -22,15 +22,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/dist\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/gulpfile.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -74,6 +65,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/src\/jade\/_common\/_footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/_common\/_footer.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/_common\/_footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/src\/jade\/_common\/_head.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -103,6 +105,50 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/jade\/_home\/_body.jade",
 		"outputAbbreviatedPath": "\/src\/jade\/_home\/_body.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/_home\/_hero.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/_home\/_hero.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/_home\/_hero.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/_home\/_refuerzo.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/_home\/_refuerzo.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/_home\/_refuerzo.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/_home\/_servicios.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/_home\/_servicios.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/_home\/_servicios.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/_home\/_testimonio.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/_home\/_testimonio.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/_home\/_testimonio.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -150,6 +196,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/src\/sass\/0-utilities\/_font-imports.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/0-utilities\/_font-imports.scss",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_font-imports.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/src\/sass\/0-utilities\/_functions.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -159,22 +221,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/sass\/0-utilities\/_functions.sass",
 		"outputAbbreviatedPath": "\/src\/sass\/css\/_functions.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/src\/sass\/0-utilities\/_helpers.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/sass\/0-utilities\/_helpers.sass",
-		"outputAbbreviatedPath": "\/src\/sass\/css\/_helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -229,6 +275,22 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/src\/sass\/1-base\/_extends.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/1-base\/_extends.sass",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_extends.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
 		},
 	"\/src\/sass\/1-base\/_general.sass": {
 		"createSourceMap": 0,
@@ -321,7 +383,7 @@
 		"outputAbbreviatedPath": "\/dist\/css\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
