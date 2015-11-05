@@ -1,7 +1,7 @@
 'use strict';
 var gulp        = require('gulp'),
     ghPages     = require('gulp-gh-pages'),
-    imageMin    = require('gulp-imagemin'),
+    imagemin    = require('gulp-imagemin'),
     pngquant    = require('imagemin-pngquant');
 
 gulp.task('test', function(){
