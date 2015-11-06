@@ -1,0 +1,1 @@
+function mobileNav(){$(".main-nav__toggle").on("click",function(){var e=$(".mobile-menu-items").hasClass("flex");e?$(".mobile-menu-items").removeClass("flex"):$(".mobile-menu-items").addClass("flex")})}mobileNav();
