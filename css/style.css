@@ -326,7 +326,7 @@ label {
   .refuerzo__cta button {
     margin-top: 20px;
     font-size: 0.625em;
-    padding: 10px 15px; }
+    padding: 15px 18px; }
   .refuerzo__cta p {
     margin-top: 8px;
     font-size: 0.75em; }
@@ -353,5 +353,31 @@ label {
     .servicios img:hover {
       width: 40px;
       height: 40px; }
+
+.testimonio {
+  background-image: url("../img/symphony.png"); }
+  .testimonio h6, .testimonio p {
+    margin-bottom: 15px; }
+  .testimonio h3, .testimonio h6 {
+    color: #DF4E6B; }
+
+.footer {
+  color: #ffffff;
+  background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
+  background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .footer h2 {
+    font-size: 1.75em;
+    line-height: 1.1428571429; }
+  .footer h6 {
+    font-size: 0.875em;
+    margin-bottom: 15px; }
+  .footer__cta button {
+    padding: 15px 18px;
+    font-size: 0.625em; }
+  .footer__cta p {
+    margin: 8px 0 15px;
+    font-size: 0.75em; }
 
 /*# sourceMappingURL=style.css.map */
