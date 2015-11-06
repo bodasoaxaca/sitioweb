@@ -1,10 +1,48 @@
 .main-nav
-	background-color: white
+	background-color: $blanco
+	padding: 20px 5%
+	display: flex
+	flex-direction: row
+	align-items: center
+	z-index: 2
+	position: fixed
+	width: 100%
+
+	&.shadow
+		box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50)
 
 	&__logo
-		background:
-			image: url('../img/logo.png')
-			repeat: no-repeat
-		width: 70px
-		height: 70px
-		margin: 0 auto
+		@extend %sin-texto
+		align-self: flex-start
+		+img-replace("bo-logo-min-color.svg", 58px, 45px)
+		margin-right: auto
+
+	&__items
+		z-index: 2
+		positon: fixed
+		padding-top: 85px
+		padding-bottom: 20px
+		display: none
+		flex-direction: column
+		align-items: center
+		box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50)
+		transition: $trns-duration
+
+		li
+			margin-bottom: 15px
+
+
+		button
+			font-size: em(10px)
+			padding: 10px 25px
+
+	&__burger
+		border-radius: 10px
+		padding: 8px 15px
+		text-transform: uppercase
+		border: 1px solid $negro
+		transition: $trns-duration ease-out
+
+		&:hover
+			color: white
+			background: $negro
