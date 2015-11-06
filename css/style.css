@@ -314,7 +314,8 @@ label {
   .refuerzo__pic {
     border: 10px solid #ffffff;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    max-width: 360px; }
   .refuerzo h2, .refuerzo h6 {
     color: #DF4E6B; }
   .refuerzo h2 {
@@ -360,14 +361,18 @@ label {
     margin-bottom: 15px; }
   .testimonio h3, .testimonio h6 {
     color: #DF4E6B; }
+  .testimonio__pic {
+    max-width: 360px; }
 
 .footer {
+  height: 40vh;
   color: #ffffff;
   background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
   background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
   .footer h2 {
+    margin-top: 10%;
     font-size: 1.75em;
     line-height: 1.1428571429; }
   .footer h6 {
