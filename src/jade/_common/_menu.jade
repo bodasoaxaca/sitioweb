@@ -5,10 +5,12 @@ mixin menu-items()
     li: a(href='#') Oaxaca
     li: button Contacto
 
-header
-  nav.main-nav.shadow
-    a.main-nav__logo(href="index.html") Bodas Oaxaca
-    span.main-nav__burger Menú
-  .mobile-menu-items
-    +menu-items
+.main-nav
+  header
+    nav
+      a.main-nav__logo(href="index.html") Bodas Oaxaca
+      span.main-nav__toggle Menú
+    .mobile-menu-items
+      +menu-items
+    
   

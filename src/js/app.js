@@ -1,8 +1,8 @@
 function mobileNav() {
-  $('.main-nav__burger').on('click', function(){
-    $('.main-nav').removeClass('shadow');
-    $('.main-nav__items').css('display', 'flex');
-    $('.main-nav__burger').html('Cerrar');
+  $('.main-nav__toggle').on('click', function(){
+    var status = $('.mobile-menu-items').hasClass('flex');
+    if(status){ $('.mobile-menu-items').removeClass('flex'); }
+    else { $('.mobile-menu-items').addClass('flex'); }
   });
 }
 
