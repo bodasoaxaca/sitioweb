@@ -365,12 +365,14 @@ label {
     max-width: 360px; }
 
 .footer {
-  height: 40vh;
   color: #ffffff;
   background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
   background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
+  @media (min-width: 37.5em) {
+    .footer {
+      height: 40vh; } }
   .footer h2 {
     margin-top: 10%;
     font-size: 1.75em;
