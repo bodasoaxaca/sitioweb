@@ -33,6 +33,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/img\/symphony.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19189,
+		"inputAbbreviatedPath": "\/dist\/img\/symphony.png",
+		"outputAbbreviatedPath": "\/dist\/img\/symphony.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -103,6 +114,17 @@
 		"initialSize": 583359,
 		"inputAbbreviatedPath": "\/src\/img\/hero.jpg",
 		"outputAbbreviatedPath": "\/src\/img\/hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/symphony.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19189,
+		"inputAbbreviatedPath": "\/src\/img\/symphony.png",
+		"outputAbbreviatedPath": "\/src\/img\/symphony.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -498,6 +520,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_navigation.sass",
 		"outputAbbreviatedPath": "\/src\/sass\/css\/_navigation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/src\/sass\/3-modules\/_refuerzo.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_refuerzo.sass",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_refuerzo.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

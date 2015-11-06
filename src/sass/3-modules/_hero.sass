@@ -1,9 +1,14 @@
 .hero
-  height: 70vh
+  height: 85vh
   color: $blanco
   background:
     image: url('../img/hero.jpg')
     size: cover
+
+  h1
+    font-size: em(36px, 16px)
+    +mq(small)
+      font-size: em(44px)
 
   +e(play)
     background:
@@ -34,8 +39,17 @@
       font-size: em(13px)
       +mq(small)
         font-size: em(15px)
-
-  h1
-    font-size: em(36px, 16px)
-    +mq(small)
-      font-size: em(44px)
+  +e(scroll)
+    background:
+      image: url('../img/down.svg')
+      repeat: no-repeat
+    height: 60px
+    width: 60px
+    margin-top: 5%
+    opacity: 0.9
+    transition: $trns-duration
+    margin-top: 100px
+    &:hover
+      opacity: 0.6
+    &:active
+      opacity: 1
