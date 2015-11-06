@@ -22,6 +22,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/img\/footer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241398,
+		"inputAbbreviatedPath": "\/dist\/img\/footer.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/footer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -29,6 +40,17 @@
 		"initialSize": 551307,
 		"inputAbbreviatedPath": "\/dist\/img\/hero.jpg",
 		"outputAbbreviatedPath": "\/dist\/img\/hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/jennifer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28779,
+		"inputAbbreviatedPath": "\/dist\/img\/jennifer.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/jennifer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -107,6 +129,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/src\/img\/footer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357722,
+		"inputAbbreviatedPath": "\/src\/img\/footer.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/footer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/img\/hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -114,6 +147,17 @@
 		"initialSize": 583359,
 		"inputAbbreviatedPath": "\/src\/img\/hero.jpg",
 		"outputAbbreviatedPath": "\/src\/img\/hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/jennifer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29827,
+		"inputAbbreviatedPath": "\/src\/img\/jennifer.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/jennifer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
