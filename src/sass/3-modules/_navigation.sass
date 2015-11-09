@@ -5,12 +5,25 @@
 		z-index: 2
 		width: 100%
 		box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50)
-
+		text-transform: uppercase
 	nav
 		display: flex
 		flex-direction: row
+		justify-content: space-around
 
-	&__logo
+	.desktop-menu-items ul
+		display: none
+		flex-grow: 2
+
+		+mq(medium)
+			display: flex
+			flex-grow: 2
+			& li
+				flex: 1 1 100%
+				padding: 0 15px
+				align-self: center
+
+	+e(logo)
 		@extend %sin-texto
 		align-self: flex-start
 		+img-replace("bo-logo-min-color.svg", 58px, 45px)
@@ -20,13 +33,13 @@
 		font-size: em(10px)
 		padding: 10px 25px
 
-	&__toggle
+	+e(toggle)
 		border-radius: 10px
 		padding: 8px 15px
-		text-transform: uppercase
 		border: 1px solid $negro
 		transition: $trns-duration ease-out
-
+		+mq(medium)
+			display: none
 		&:hover
 			color: white
 			background: $negro
@@ -41,6 +54,11 @@
 
 	&.flex
 		display: flex
+		+mq(medium)
+			display: none
+
+	+mq(medium)
+		display: none
 
 	li
 		margin-bottom: 20px

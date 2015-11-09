@@ -22,6 +22,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2606,
+		"inputAbbreviatedPath": "\/dist\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/dist\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/footer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -128,6 +139,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/src\/img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4734,
+		"inputAbbreviatedPath": "\/src\/img\/favicon.png",
+		"outputAbbreviatedPath": "\/src\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/src\/img\/footer.jpg": {
 		"fileType": 16384,

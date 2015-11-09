@@ -9,6 +9,8 @@ mixin menu-items()
   header
     nav
       a.main-nav__logo(href="index.html") Bodas Oaxaca
+      .desktop-menu-items
+        +menu-items
       span.main-nav__toggle Menú
     .mobile-menu-items
       +menu-items
