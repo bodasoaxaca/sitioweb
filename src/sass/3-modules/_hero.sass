@@ -1,9 +1,9 @@
 .hero
+  padding-top: 80px
   height: 85vh
   color: $blanco
-  background:
-    image: url('../img/hero.jpg')
-    size: cover
+  background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37,0.3) url('../img/hero.jpg')
+  background-size: cover
 
   h1
     font-size: em(36px, 16px)
@@ -43,12 +43,17 @@
     background:
       image: url('../img/down.svg')
       repeat: no-repeat
-    height: 60px
-    width: 60px
-    margin-top: 10vh
+    height: 50px
+    width: 50px
+    margin-top: 15px
     opacity: 0.9
     transition: $trns-duration
+    animation: pulse 2.2s infinite
     &:hover
       opacity: 0.6
     &:active
       opacity: 1
+    @at-root
+      @keyframes pulse
+        50%
+          transform: translateY(25%)

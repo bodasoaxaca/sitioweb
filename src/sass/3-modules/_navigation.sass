@@ -4,8 +4,14 @@
 		padding: 20px 5% 15px
 		z-index: 2
 		width: 100%
+		position: fixed
 		box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50)
 		text-transform: uppercase
+		transition: transform $trns-duration ease-in-out
+
+		&.hidden
+			transform: translateY(-110%)
+
 	nav
 		display: flex
 		flex-direction: row
