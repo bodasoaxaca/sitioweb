@@ -302,7 +302,8 @@ label {
   padding-top: 80px;
   height: 85vh;
   color: #ffffff;
-  background-image: url("../img/hero.jpg");
+  background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/hero.jpg");
+  background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/hero.jpg");
   background-size: cover; }
   .hero h1 {
     font-size: 2.25em; }
@@ -341,17 +342,26 @@ label {
   .hero__scroll {
     background-image: url("../img/down.svg");
     background-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
-    margin-top: 10vh;
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
     opacity: 0.9;
     -webkit-transition: 0.3s;
-            transition: 0.3s; }
+            transition: 0.3s;
+    -webkit-animation: pulse 2.2s infinite;
+            animation: pulse 2.2s infinite; }
     .hero__scroll:hover {
       opacity: 0.6; }
     .hero__scroll:active {
       opacity: 1; }
-
+@-webkit-keyframes pulse {
+  50% {
+    -webkit-transform: translateY(25%);
+            transform: translateY(25%); } }
+@keyframes pulse {
+  50% {
+    -webkit-transform: translateY(25%);
+            transform: translateY(25%); } }
 .refuerzo {
   background-image: url("../img/symphony.png");
   padding: 20px 0; }
