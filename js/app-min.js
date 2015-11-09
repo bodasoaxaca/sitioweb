@@ -1,1 +1,1 @@
-function mobileNav(){$(".main-nav__toggle").on("click",function(){var e=$(".mobile-menu-items").hasClass("flex");e?$(".mobile-menu-items").removeClass("flex"):$(".mobile-menu-items").addClass("flex")})}mobileNav();
+function mobileNav(){$(".main-nav__toggle").on("click",function(){var e=$(".mobile-menu-items").hasClass("flex");e?$(".mobile-menu-items").removeClass("flex"):$(".mobile-menu-items").addClass("flex")})}function hideNav(){var e=0,l=$(window),i=$("header");l.on("scroll",function(){var o=l.scrollTop();i.toggleClass("hidden",o>e),e=o})}mobileNav(),hideNav();
