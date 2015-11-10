@@ -443,6 +443,8 @@ label {
               flex-basis: 25%;
       max-width: 25%;
       padding: 0 1em; } }
+  .servicios__iconos a {
+    color: #4a4a4a; }
   .servicios__logo {
     background-image: url("../img/heart-lg.svg");
     background-repeat: no-repeat;
