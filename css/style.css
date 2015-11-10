@@ -336,6 +336,7 @@ label {
       .hero h1 {
         font-size: 2.75em; } }
   .hero__play {
+    margin-top: 80px;
     background-image: url("../img/play.svg");
     background-repeat: no-repeat;
     height: 100px;
@@ -350,7 +351,8 @@ label {
     @media (min-width: 37.5em) {
       .hero__play {
         height: 120px;
-        width: 120px; } }
+        width: 120px;
+        margin: 0; } }
   .hero__cta {
     margin-top: 30px; }
     .hero__cta button {
