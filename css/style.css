@@ -150,6 +150,9 @@ label {
   padding: 20px 5%;
   margin-left: auto;
   margin-right: auto; }
+  @media (min-width: 53.125em) {
+    .container {
+      padding: 20px 0; } }
 
 .row {
   display: -webkit-box;
@@ -172,14 +175,18 @@ label {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center; }
+  text-align: center;
+  max-width: 100%; }
   @media (min-width: 53.125em) {
     .row {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
 
 .vertical {
   -webkit-box-orient: vertical;
@@ -365,6 +372,26 @@ label {
 .refuerzo {
   background-image: url("../img/symphony.png");
   padding: 20px 0; }
+  @media (min-width: 53.125em) {
+    .refuerzo__half-2 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-basis: 50%;
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-left: 2em;
+      padding-right: 2em;
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+      text-align: left; } }
   .refuerzo__pic {
     border: 10px solid #ffffff;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
@@ -372,6 +399,12 @@ label {
     @media (min-width: 37.5em) {
       .refuerzo__pic {
         max-width: 360px; } }
+    @media (min-width: 53.125em) {
+      .refuerzo__pic {
+        margin: 0;
+        -webkit-flex-basis: 50%;
+            -ms-flex-preferred-size: 50%;
+                flex-basis: 50%; } }
   .refuerzo h2, .refuerzo h6 {
     color: #DF4E6B; }
   .refuerzo h2 {
@@ -387,6 +420,12 @@ label {
   .refuerzo__cta p {
     margin-top: 8px;
     font-size: 0.75em; }
+  @media (min-width: 53.125em) {
+    .refuerzo__cta {
+      text-align: center;
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center; } }
 
 .servicios {
   padding: 30px 0; }
