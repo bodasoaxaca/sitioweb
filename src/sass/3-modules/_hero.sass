@@ -1,9 +1,16 @@
 .hero
-  padding-top: 80px
   height: 85vh
   color: $blanco
   background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37,0.3) url('../img/hero.jpg')
   background-size: cover
+
+  .container
+    height: 100%
+  .flex
+    display: flex
+    justify-content: center
+    flex-direction: column
+    height: 100%
 
   h1
     font-size: em(36px, 16px)
@@ -14,9 +21,8 @@
     background:
       image: url('../img/play.svg')
       repeat: no-repeat
-    height: 80px
-    width: 80px
-    margin-top: 5%
+    height: 100px
+    width: 100px
     opacity: 0.9
     transition: $trns-duration
     &:hover
@@ -27,7 +33,6 @@
     +mq(small)
       height: 120px
       width: 120px
-      margin-top: 8%
 
   +e(cta)
     margin-top: 30px
