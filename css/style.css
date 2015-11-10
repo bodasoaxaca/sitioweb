@@ -483,6 +483,12 @@ label {
   @media (min-width: 37.5em) {
     .testimonio__pic {
       max-width: 360px; } }
+  @media (min-width: 53.125em) {
+    .testimonio .half {
+      max-width: 50%;
+      -webkit-flex-basis: 50%;
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%; } }
 
 .footer {
   min-height: 30vh;
