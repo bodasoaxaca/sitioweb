@@ -396,9 +396,10 @@ label {
               align-self: center;
       text-align: left; } }
   .refuerzo__pic {
-    border: 10px solid #ffffff;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
     margin-bottom: 30px; }
+    .refuerzo__pic img {
+      border: 10px solid #ffffff;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
     @media (min-width: 37.5em) {
       .refuerzo__pic {
         max-width: 360px; } }
