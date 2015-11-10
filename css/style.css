@@ -75,7 +75,7 @@ table {
   overflow: hidden;
   white-space: nowrap; }
 
-button, input[type='submit'] {
+a.btn, button, input[type='submit'] {
   color: #ffffff;
   border-radius: 40px;
   font-family: "Gotham-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -90,9 +90,9 @@ button, input[type='submit'] {
   outline: none;
   -webkit-transition: 0.3s ease-in-out;
           transition: 0.3s ease-in-out; }
-  button:hover, input[type='submit']:hover {
+  a.btn:hover, button:hover, input[type='submit']:hover {
     background: #d92b4e; }
-  button:active, input[type='submit']:active {
+  a.btn:active, button:active, input[type='submit']:active {
     box-shadow: none; }
 
 h1, h2, h3 {
@@ -134,6 +134,8 @@ a {
   text-decoration: none;
   -webkit-transition: 0.3s ease-in;
           transition: 0.3s ease-in; }
+  a.btn:hover {
+    color: #ffffff; }
   a:visited {
     color: #DF4E6B; }
   a:hover {
@@ -374,7 +376,8 @@ label {
   padding: 20px 0; }
   .refuerzo__body--eng {
     color: #999da1;
-    font-size: smaller; }
+    font-size: smaller;
+    margin-top: 15px; }
   @media (min-width: 53.125em) {
     .refuerzo__half-2 {
       display: -webkit-box;
@@ -402,7 +405,7 @@ label {
       box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
     @media (min-width: 37.5em) {
       .refuerzo__pic {
-        max-width: 360px; } }
+        max-width: 500px; } }
     @media (min-width: 53.125em) {
       .refuerzo__pic {
         margin: 0;
@@ -433,18 +436,29 @@ label {
 
 .servicios {
   padding: 30px 0; }
-  .servicios h6, .servicios p {
-    margin-bottom: 15px; }
+  @media (min-width: 53.125em) {
+    .servicios__servicio {
+      -webkit-flex-basis: 25%;
+          -ms-flex-preferred-size: 25%;
+              flex-basis: 25%;
+      max-width: 25%;
+      padding: 0 1em; } }
   .servicios__logo {
     background-image: url("../img/heart-lg.svg");
     background-repeat: no-repeat;
     height: 100px;
     width: 100px; }
+  .servicios__descripcion {
+    max-width: 500px;
+    margin-bottom: 25px; }
   .servicios h3 {
     text-transform: uppercase;
     font-size: 0.75em;
     line-height: 1.1666666667;
     letter-spacing: 2px; }
+  .servicios h6 {
+    color: #DF4E6B;
+    margin-bottom: 15px; }
   .servicios img {
     width: 35px;
     height: 35px;
@@ -453,6 +467,10 @@ label {
     .servicios img:hover {
       width: 40px;
       height: 40px; }
+  .servicios .btn {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 0.75em; }
 
 .testimonio {
   background-image: url("../img/symphony.png"); }
