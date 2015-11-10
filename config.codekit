@@ -22,6 +22,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/img\/enjoy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 833581,
+		"inputAbbreviatedPath": "\/dist\/img\/enjoy.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/enjoy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -139,6 +150,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/src\/img\/enjoy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 946234,
+		"inputAbbreviatedPath": "\/src\/img\/enjoy.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/enjoy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/src\/img\/favicon.png": {
 		"fileType": 32768,
