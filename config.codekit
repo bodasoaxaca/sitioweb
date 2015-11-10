@@ -44,6 +44,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/img\/footer-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235889,
+		"inputAbbreviatedPath": "\/dist\/img\/footer-2.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/footer-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/footer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -169,6 +180,17 @@
 		"initialSize": 4734,
 		"inputAbbreviatedPath": "\/src\/img\/favicon.png",
 		"outputAbbreviatedPath": "\/src\/img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/img\/footer-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258675,
+		"inputAbbreviatedPath": "\/src\/img\/footer-2.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/footer-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
