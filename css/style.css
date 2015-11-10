@@ -372,6 +372,9 @@ label {
 .refuerzo {
   background-image: url("../img/symphony.png");
   padding: 20px 0; }
+  .refuerzo__body--eng {
+    color: #999da1;
+    font-size: smaller; }
   @media (min-width: 53.125em) {
     .refuerzo__half-2 {
       display: -webkit-box;
@@ -463,10 +466,11 @@ label {
 .footer {
   min-height: 30vh;
   color: #ffffff;
-  background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
-  background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
+  background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer-2.jpg");
+  background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer-2.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: left; }
   .footer h2 {
     margin-top: 5vh;
     font-size: 1.75em;
@@ -480,5 +484,14 @@ label {
   .footer__cta p {
     margin: 8px 0 15px;
     font-size: 0.75em; }
+  .footer__medallas {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
 
 /*# sourceMappingURL=style.css.map */
