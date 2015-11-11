@@ -22,6 +22,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/img\/adriana.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15684,
+		"inputAbbreviatedPath": "\/dist\/img\/adriana.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/adriana.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/enjoy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -44,22 +55,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/dist\/img\/footer-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 235889,
-		"inputAbbreviatedPath": "\/dist\/img\/footer-2.jpg",
-		"outputAbbreviatedPath": "\/dist\/img\/footer-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/dist\/img\/footer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 241398,
+		"initialSize": 235889,
 		"inputAbbreviatedPath": "\/dist\/img\/footer.jpg",
 		"outputAbbreviatedPath": "\/dist\/img\/footer.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -73,17 +73,6 @@
 		"initialSize": 551307,
 		"inputAbbreviatedPath": "\/dist\/img\/hero.jpg",
 		"outputAbbreviatedPath": "\/dist\/img\/hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/dist\/img\/jennifer.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28779,
-		"inputAbbreviatedPath": "\/dist\/img\/jennifer.jpg",
-		"outputAbbreviatedPath": "\/dist\/img\/jennifer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -162,6 +151,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/src\/img\/adriana.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17053,
+		"inputAbbreviatedPath": "\/src\/img\/adriana.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/adriana.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/img\/enjoy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -184,22 +184,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/img\/footer-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 258675,
-		"inputAbbreviatedPath": "\/src\/img\/footer-2.jpg",
-		"outputAbbreviatedPath": "\/src\/img\/footer-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/src\/img\/footer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 357722,
+		"initialSize": 258675,
 		"inputAbbreviatedPath": "\/src\/img\/footer.jpg",
 		"outputAbbreviatedPath": "\/src\/img\/footer.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -213,17 +202,6 @@
 		"initialSize": 583359,
 		"inputAbbreviatedPath": "\/src\/img\/hero.jpg",
 		"outputAbbreviatedPath": "\/src\/img\/hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/src\/img\/jennifer.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29827,
-		"inputAbbreviatedPath": "\/src\/img\/jennifer.jpg",
-		"outputAbbreviatedPath": "\/src\/img\/jennifer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

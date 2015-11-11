@@ -1,4 +1,5 @@
 .testimonio
+  padding: 25px 0
   background:
     image: url('../img/symphony.png')
 
@@ -8,6 +9,10 @@
   h3, h6
     color: $color-primario
 
+  img
+    border: 10px solid $blanco
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50)
+
   +e(pic)
     +mq(small)
       max-width: 360px
@@ -16,3 +21,6 @@
     +mq(medium)
       max-width: 50%
       flex-basis: 50%
+  .btn
+    font-size: em(10px)
+    margin-top: 15px
