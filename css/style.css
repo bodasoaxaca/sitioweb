@@ -136,6 +136,8 @@ a {
           transition: 0.3s ease-in; }
   a.btn:hover {
     color: #ffffff; }
+  a.btn:visited {
+    color: #ffffff; }
   a:visited {
     color: #DF4E6B; }
   a:hover {
@@ -484,11 +486,15 @@ label {
     font-size: 0.75em; }
 
 .testimonio {
+  padding: 25px 0;
   background-image: url("../img/symphony.png"); }
   .testimonio h6, .testimonio p {
     margin-bottom: 15px; }
   .testimonio h3, .testimonio h6 {
     color: #DF4E6B; }
+  .testimonio img {
+    border: 10px solid #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
   @media (min-width: 37.5em) {
     .testimonio__pic {
       max-width: 360px; } }
@@ -498,12 +504,15 @@ label {
       -webkit-flex-basis: 50%;
           -ms-flex-preferred-size: 50%;
               flex-basis: 50%; } }
+  .testimonio .btn {
+    font-size: 0.625em;
+    margin-top: 15px; }
 
 .footer {
   min-height: 30vh;
   color: #ffffff;
-  background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer-2.jpg");
-  background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer-2.jpg");
+  background: -webkit-linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
+  background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37, 0.3) url("../img/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left; }
