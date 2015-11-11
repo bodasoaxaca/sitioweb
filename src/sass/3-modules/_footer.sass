@@ -25,6 +25,27 @@
     flex-direction: row
     justify-content: space-around
 
+  .social
+    display: flex
+    margin: 20px 0
+
+  +e(iconos)
+    @extend %sin-texto
+    display: inline-block
+    width: 30px
+    height: 30px
+    padding: 0 2em
+    opacity: 0.6
+    &:hover
+      opacity: 1
+
+    +social(twitter)
+    +social(facebook)
+    +social(instagram)
+    +social(pinterest)
+    +social(tumblr)
+
+
   .geekybytes
     color: $blanco
     transition: $trns-duration
