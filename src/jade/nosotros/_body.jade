@@ -1,0 +1,16 @@
+body
+  include ../_common/_menu.jade
+  
+  //Acá va la sustancia
+  include ./_hero.jade
+  include ./_detalles.jade
+  include ./_mapa.jade
+  
+  
+  include ../_common/_footer.jade
+  
+  //- Scripts al final
+  script(src='//code.jquery.com/jquery-1.11.3.min.js')
+  script(src='http://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.7')
+  script(src='../js/app-min.js')
+  script(src='../js/maps-min.js')

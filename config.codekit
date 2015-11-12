@@ -88,6 +88,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/img\/nosotros-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 342416,
+		"inputAbbreviatedPath": "\/dist\/img\/nosotros-hero.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/nosotros-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/symphony.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -118,6 +129,26 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/js\/maps-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/js\/maps-min.js",
+		"outputAbbreviatedPath": "\/dist\/js\/min\/maps-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/dist\/nosotros\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/nosotros\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/gulpfile.js": {
 		"fileType": 64,
@@ -250,6 +281,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/src\/jade\/_common\/_head-otros.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/_common\/_head-otros.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/_common\/_head-otros.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/src\/jade\/_common\/_head.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -349,6 +391,72 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
 		},
+	"\/src\/jade\/nosotros\/_body.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/nosotros\/_body.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/nosotros\/_body.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/nosotros\/_detalles.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/nosotros\/_detalles.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/nosotros\/_detalles.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/nosotros\/_hero.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/nosotros\/_hero.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/nosotros\/_hero.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/nosotros\/_mapa.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/nosotros\/_mapa.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/nosotros\/_mapa.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/nosotros\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/nosotros\/index.jade",
+		"outputAbbreviatedPath": "\/dist\/nosotros\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/src\/js\/_maplace.0.1.33.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/js\/_maplace.0.1.33.min.js",
+		"outputAbbreviatedPath": "\/src\/js\/min\/_maplace.0.1.33.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
 	"\/src\/js\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -359,6 +467,17 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/src\/js\/maps.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/js\/maps.js",
+		"outputAbbreviatedPath": "\/dist\/js\/maps-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
 		},
 	"\/src\/sass\/0-utilities\/_breakpoints.scss": {
 		"createSourceMap": 0,
@@ -600,6 +719,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/src\/sass\/3-modules\/_detalles.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_detalles.sass",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_detalles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/src\/sass\/3-modules\/_footer.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -609,6 +744,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_footer.sass",
 		"outputAbbreviatedPath": "\/src\/sass\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/src\/sass\/3-modules\/_hero-nosotros.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_hero-nosotros.sass",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_hero-nosotros.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -641,6 +792,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_index.sass",
 		"outputAbbreviatedPath": "\/src\/sass\/css\/_index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/src\/sass\/3-modules\/_maps.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_maps.sass",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_maps.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -733,6 +900,14 @@
 	],
 "lastSavedByUser": "Miguel Palau Zarza",
 "manualImportLinks": {
+	"\/src\/js\/maps.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/src\/js\/_maplace.0.1.33.min.js",
+			"position": 0,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
