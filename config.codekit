@@ -44,6 +44,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/img\/facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55728,
+		"inputAbbreviatedPath": "\/dist\/img\/facebook.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -173,6 +184,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/img\/facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58515,
+		"inputAbbreviatedPath": "\/src\/img\/facebook.jpg",
+		"outputAbbreviatedPath": "\/src\/img\/facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -246,6 +268,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/jade\/_common\/_menu.jade",
 		"outputAbbreviatedPath": "\/src\/jade\/_common\/_menu.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/_common\/_mixins.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/_common\/_mixins.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/_common\/_mixins.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0

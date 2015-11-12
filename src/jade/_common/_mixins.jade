@@ -1,0 +1,55 @@
+//- Google Normal -  3 valores
+mixin titulo(title, keywords, description)
+	title #{title}
+	meta(name='author',				content='GeekyBytes - Soluciones Online')
+	meta(name='keywords',			content='#{keywords}')
+	meta(name='description',		content='#{description}')
+
+//- Favicons - 2 valores (link al .ico y al .png)
+mixin favicons
+	link(rel='icon', 					href='img/logos/favicon.ico')
+	link(rel='icon', type='image/png', 	href='img/logos/favicon.png')
+
+
+
+//- Facebook - 6 valores
+mixin facebook(title, siteName, website, imageLink, appID, description)
+	meta(property='og:title', 		content='#{title}')
+	meta(property='og:site_name', 	content='#{siteName}')
+	meta(property='og:url',			content='#{website}')
+	meta(property='og:image', 		content='#{imageLink}')
+	meta(property='fb:app_id', 		content='#{app_ID}')
+	meta(property='og:description', content='#{description}')
+	meta(property='og:type', 		content='website')
+	meta(property='og:locale', 		content='es_LA')
+
+//- Twitter - 4 valores
+mixin twitter(user, title, description, imageURL)
+	meta(name='twitter: card',			content='summary_large_image')
+	meta(name='twitter: site',			content='#{user}')
+	meta(name='twitter: title',			content='#{title}')
+	//- Máximo 200 caracteres
+	meta(name='twitter: description',	content='#{description}')
+	meta(name='twitter: creator',		content='#{user}')
+	//- 280px x 150px
+	meta(name='twitter: image',			content='#{imageURL}')
+
+//- Google+ - 6 valores
+mixin googleplus(url, logoUrl, facebook, twitter, gplus, tel)
+	script(type='application/ld+json').
+		{
+			"@context" : "http://schema.org",
+			"@type" : "Organization",
+			"url" : "#{url}",
+			"logo": "#{logoUrl}",
+			"sameAs" : [ 
+			"#{facebook}",
+			"#{twitter}",
+			"#{gplus}"
+			],
+			"contactPoint" : [ { 
+			"@type" : "ContactPoint",
+			"telephone" : "#{tel}",
+			"contactType" : "customer service"
+			} ]
+		}
