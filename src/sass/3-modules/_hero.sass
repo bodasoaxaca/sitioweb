@@ -4,13 +4,21 @@
   background: linear-gradient(rgba(34, 35, 37, 0.3), rgba(34, 35, 37, 0.3)), rgba(34, 35, 37,0.3) url('../img/hero.jpg')
   background-size: cover
 
+  .container
+    height: 100%
+    display: flex
+    justify-content: center
+
+  .row
+    margin-top: auto
+    margin-bottom: auto
+
   h1
     font-size: em(36px, 16px)
     +mq(small)
       font-size: em(44px)
 
   +e(play)
-    margin-top: 80px
     background:
       image: url('../img/play.svg')
       repeat: no-repeat
