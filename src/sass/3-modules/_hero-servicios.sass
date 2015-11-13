@@ -1,0 +1,28 @@
+.hero-servicios
+  height: 60vh
+  color: $blanco
+  background: linear-gradient(rgba(34, 35, 37, 0.6), rgba(34, 35, 37, 0.6)), rgba(34, 35, 37,0.6) url('../img/servicios-hero.jpg')
+  background-size: cover
+  background-position: top center
+  background-attachment: fixed
+
+  .container
+    height: 100%
+    display: flex
+    justify-content: center
+
+  .row
+    margin-top: auto
+    margin-bottom: auto
+
+  h1
+    font-size: em(36px, 16px)
+    +mq(small)
+      font-size: em(44px)
+
+  h6
+    color: $color-primario
+
+  +e(eng)
+    font-size: em(14px)
+    color: palette(gris, light)
