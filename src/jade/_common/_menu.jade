@@ -1,6 +1,6 @@
 mixin menu-items()
   ul.main-nav__items
-    li: a(href='nosotros') Nosotros
+    li: a(href='/nosotros') Nosotros
     //li: a(href='#') Servicios
     //li: a(href='#') Oaxaca
     li: a(href='http://bodasoaxaca.tumblr.com/') Blog
@@ -9,7 +9,7 @@ mixin menu-items()
 .main-nav
   header
     nav
-      a.main-nav__logo(href="index.html") Bodas Oaxaca
+      a.main-nav__logo(href="/") Bodas Oaxaca
       .desktop-menu-items
         +menu-items
       span.main-nav__toggle Menú

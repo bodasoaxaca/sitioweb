@@ -3,5 +3,29 @@ section.contacto
   #gmap
 
   .container
-    .row
+    .row.vertical
       h2 Contáctanos
+      h6 Contact Us
+
+    .row
+      .half
+        h3 Bodas Oaxaca
+        p Fresnito, 206 Local 3 Col. Ex-Hacienda Candiani 71233 Oaxaca, Mexico
+        p Teléfono: 01 951 144 7062
+        img(src='../img/ubicacion.png', alt='Fachada de Bodas Oaxaca')
+      .half
+        form#contacto(action='//formspree.io/mpalauzarza@gmail.com', method='POST')
+          label(for='nombre') Nombre
+          input(type='text', name='nombre', placeholder='Nombre')
+          label(for='email') E-mail
+          input(type='email', name='email', placeholder='Correo')
+          
+          label(for='telefono')
+          input(type='tel', name='telefono', placeholder='Teléfono')
+          label(for='mensaje') mensaje
+          textarea(name ='mensaje' rows='4', placeholder='Escribe tu mensaje aquí')
+          input(type='hidden', name='_next', value='/gracias')
+          input(type='hidden', name='_subject', value='Nueva consulta en BO!')
+          input(type='text', name='_gotcha', style='display:none')
+          input(type='submit', value='Enviar')
+          

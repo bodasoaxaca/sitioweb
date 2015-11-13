@@ -22,6 +22,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/dist\/gracias\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/dist\/gracias\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/dist\/img\/adriana.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -106,6 +115,17 @@
 		"initialSize": 19189,
 		"inputAbbreviatedPath": "\/dist\/img\/symphony.png",
 		"outputAbbreviatedPath": "\/dist\/img\/symphony.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/ubicacion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244644,
+		"inputAbbreviatedPath": "\/dist\/img\/ubicacion.png",
+		"outputAbbreviatedPath": "\/dist\/img\/ubicacion.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -270,6 +290,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/src\/img\/ubicacion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 707817,
+		"inputAbbreviatedPath": "\/src\/img\/ubicacion.png",
+		"outputAbbreviatedPath": "\/src\/img\/ubicacion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/src\/jade\/_common\/_footer.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -380,6 +411,39 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/src\/jade\/gracias\/_body.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/gracias\/_body.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/gracias\/_body.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/gracias\/_gracias.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/gracias\/_gracias.jade",
+		"outputAbbreviatedPath": "\/src\/jade\/gracias\/_gracias.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/jade\/gracias\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/jade\/gracias\/index.jade",
+		"outputAbbreviatedPath": "\/dist\/gracias\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1
+		},
 	"\/src\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -444,7 +508,7 @@
 		"outputAbbreviatedPath": "\/dist\/nosotros\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
+		"outputStyle": 1
 		},
 	"\/src\/js\/_maplace.0.1.33.min.js": {
 		"fileType": 64,
@@ -744,6 +808,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_footer.sass",
 		"outputAbbreviatedPath": "\/src\/sass\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/src\/sass\/3-modules\/_gracias.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_gracias.sass",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_gracias.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
