@@ -42,6 +42,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/img\/decoracion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110753,
+		"inputAbbreviatedPath": "\/dist\/img\/decoracion.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/decoracion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/enjoy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -97,6 +108,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/img\/invitaciones.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198351,
+		"inputAbbreviatedPath": "\/dist\/img\/invitaciones.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/invitaciones.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/img\/nosotros-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -104,6 +126,17 @@
 		"initialSize": 322582,
 		"inputAbbreviatedPath": "\/dist\/img\/nosotros-hero.jpg",
 		"outputAbbreviatedPath": "\/dist\/img\/nosotros-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/img\/picbox.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164791,
+		"inputAbbreviatedPath": "\/dist\/img\/picbox.jpg",
+		"outputAbbreviatedPath": "\/dist\/img\/picbox.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1055,6 +1088,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_refuerzo.sass",
 		"outputAbbreviatedPath": "\/src\/sass\/css\/_refuerzo.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/src\/sass\/3-modules\/_servicios-body.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/sass\/3-modules\/_servicios-body.sass",
+		"outputAbbreviatedPath": "\/src\/sass\/css\/_servicios-body.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

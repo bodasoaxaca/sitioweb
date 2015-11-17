@@ -19,5 +19,5 @@ new Maplace({
   .Load();
 
 $(document).ready(function(){
-  $('#nombre').focus();
+  $('#contacto').focus();
 });
