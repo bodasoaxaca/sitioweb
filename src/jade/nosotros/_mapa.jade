@@ -16,13 +16,13 @@ section.contacto
       .half
         form#contacto(action='//formspree.io/bodasoaxaca@gmail.com', method='POST')
           label(for='nombre') Nombre
-          input(type='text', name='nombre', placeholder='Nombre')
+          input#nombre(type='text', name='nombre', placeholder='Nombre')
           label(for='email') E-mail
           input(type='email', name='email', placeholder='Correo')
           
           label(for='telefono')
           input(type='tel', name='telefono', placeholder='Teléfono')
-          label(for='mensaje') mensaje
+          label(for='mensaje') Mensaje
           textarea(name ='mensaje' rows='4', placeholder='Escribe tu mensaje aquí')
           input(type='hidden', name='_next', value='/gracias')
           input(type='hidden', name='_subject', value='Nueva consulta en BO!')
