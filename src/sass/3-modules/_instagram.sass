@@ -1,0 +1,55 @@
+#instagram
+  display: flex
+  flex-wrap: wrap
+  margin: 20px auto
+
+  .instagram__foto
+    flex: 1 100%
+    position: relative
+    +mq(small)
+      flex-basis: percentage(1/2)
+    +mq(medium)
+      flex-basis: percentage(1/4)
+    +mq(large)
+      flex-basis: percentage(1/6)
+
+    &--descripcion
+      width: 100%
+      height: 100%
+      position: absolute
+      display: flex
+      background: white
+      bottom: 0
+      opacity: 0
+      padding: 5%
+      transition: 0.3s cubic-bezier(0.4, 0, 1, 1)
+      text-align: center
+      justify-content: center
+      align-items: center
+      color: initial
+
+      &:hover
+        opacity: 0.8
+      span
+        font-size: em(13px)
+        opacity: 1
+        max-width: 100%
+        max-height: 100%
+        overflow: hidden
+
+    &--link
+      width: 100%
+      display: block
+
+.instagram
+  padding: 50px 0
+
+  h2
+    line-height: 0.71875
+
+  h6
+    color: $color-primario
+
+  .btn
+    font-size: em(10px)
+    margin-top: 15px
