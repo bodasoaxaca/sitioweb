@@ -8,10 +8,13 @@
     position: relative
     +mq(small)
       flex-basis: percentage(1/2)
+      max-width: percentage(1/2)
     +mq(medium)
       flex-basis: percentage(1/4)
+      max-width: percentage(1/4)
     +mq(large)
       flex-basis: percentage(1/6)
+      max-width: percentage(1/6)
 
     &--descripcion
       width: 100%
@@ -30,6 +33,7 @@
 
       &:hover
         opacity: 0.8
+
       span
         font-size: em(13px)
         opacity: 1
